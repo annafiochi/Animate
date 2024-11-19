@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    background-color: #1f202b;
+    
+}
+
+main {
+    display: flex;
+    gap: 5px;
+}
+
+.card {
+    background-color: #f56435;
+    border-radius: 1.5rem ;
+    transition: transforme 0.3s ease-in-out;
+}
+
+.card:hover {
+    transition: ease .3s;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px 0px rgba(255, 94, 0, 0.945);
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 auto 1% auto;
+}
+
+.monstros {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.p-monstro {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icon-insta,
+.icon-x,
+.icon-face {
+    height: 3vh;
+}
+
+button {
+    width: 50%;
+    height: 2rem;
+    color: rgb(241, 74, 8);
+    background-color: rgb(250, 250, 250);
+    border: none;
+    border-radius: 50px;
+    font-size: 0.6rem;
+    position: absolute;
+    left: 25%;
+    top: 70%;
+    box-shadow: 3px 3px 15px rgb(255, 136, 0);
+}
+
+.button :hover {
+    background-color: rgb(97, 95, 160);
+}
+.card-text {
+    text-align: center;
+}
+
+.card-body {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    height: 5rem;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+
+.menu {
+    padding: 1rem;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+}
